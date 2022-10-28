@@ -1,11 +1,10 @@
-import { Button, Layout, Row, Modal } from 'antd';
 import React, { FC, useEffect, useState } from 'react'
+import { Button, Layout, Row, Modal } from 'antd';
 import EventCalendar from '../components/EventCalendar.tsx';
 import EventForm from '../components/EventForm.tsx';
 import { useActions } from '../hooks/useActions.ts';
 import { useTypedSelector } from '../hooks/useTypedSelector.ts';
 
-// FC - функциональный компонент
 
 const Event: FC = () => {
     const [modalOpen, setModalOpen] = useState(false)

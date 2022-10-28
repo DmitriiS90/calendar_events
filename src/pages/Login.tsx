@@ -2,8 +2,6 @@ import React, { FC } from 'react'
 import { Card, Layout, Row } from 'antd';
 import LoginForm from '../components/LoginForm.tsx';
 
-// FC - функциональный компонент
-
 const Login: FC = () => {
     return (
         <Layout>
